@@ -1,16 +1,16 @@
-.one {
+/* .one {
   background-color: blue;
   grid-row: 1;
   grid-column: 1;
   height: 25vh;
   transform: skewY(-5deg);
   overflow: hidden;
-}
+} */
 
-.two {
+.one {
   background: url(https://i.imgur.com/RnMf8Xj.png);
   background-attachment: fixed;
-  background-position: center;
+  background-position: center -3vh;
   background-repeat: no-repeat;
   background-size: 100vh;
   background-color: rgb(253, 244, 0);
