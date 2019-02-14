@@ -1,0 +1,65 @@
+.grid{
+  padding-top: 200px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  overflow: hidden;
+  padding: 50px;
+}
+
+.one{
+  background: url(https://i.imgur.com/SkWilAd.jpg) no-repeat center center fixed;
+  grid-row: 1;
+  grid-column: 1;
+  height: auto;
+
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.two{
+  background-color: blue;
+  grid-row: 2;
+  grid-column: 1;
+  height: auto;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.three{
+  background-color: green;
+  grid-row: 3;
+  grid-column: 1;
+  height: auto;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.four{
+  background-color: yellow;
+  grid-row: 4;
+  grid-column: 1;
+  height: 25vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.element{
+  height:600px;
+}
+
+.innerwrapper{
+  transform: skewY(5deg);
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
