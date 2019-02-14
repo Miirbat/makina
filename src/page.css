@@ -1,52 +1,120 @@
 .grid{
-  padding-top: 200px;
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   overflow: hidden;
-  padding: 50px;
 }
 
 .one{
-  background: url(https://i.imgur.com/SkWilAd.jpg) no-repeat center center fixed;
-  grid-row: 1;
-  grid-column: 1;
-  height: auto;
-
-  transform: skewY(-5deg);
-  overflow: hidden;
-}
-
-.two{
   background-color: blue;
-  grid-row: 2;
-  grid-column: 1;
-  height: auto;
-  transform: skewY(-5deg);
-  overflow: hidden;
-}
-
-.three{
-  background-color: green;
-  grid-row: 3;
-  grid-column: 1;
-  height: auto;
-  transform: skewY(-5deg);
-  overflow: hidden;
-}
-
-.four{
-  background-color: yellow;
-  grid-row: 4;
+  grid-row: 1;
   grid-column: 1;
   height: 25vh;
   transform: skewY(-5deg);
   overflow: hidden;
 }
 
-.element{
-  height:600px;
+.two{
+  background: url(https://i.imgur.com/RnMf8Xj.png) no-repeat center center fixed;
+  background-size: 100vh;
+  background-color: rgb(253, 244, 0);
+  grid-row: 2;
+  grid-column: 1;
+  height: 50vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.three{
+  background-color: blue;
+  grid-row: 3;
+  grid-column: 1;
+  height: 25vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.four{
+  background: url(https://i.imgur.com/wnepJdy.jpg) no-repeat center center fixed;
+  background-size: 100vw 100vh;;
+  background-color: rgb(253, 244, 0);
+  grid-row: 4;
+  grid-column: 1;
+  height: 50vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.five{
+  background-color: rgb(132, 16, 130);
+  grid-row: 5;
+  grid-column: 1;
+  height: auto;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.six{
+  background-color: orange;
+  background: url(https://i.imgur.com/ARfFzcb.jpg) no-repeat center center fixed;
+  background-size: 100vw 100vh;;
+  grid-row: 6;
+  grid-column: 1;
+  height: 50vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.seven{
+  background: url(https://i.imgur.com/VzqZYIr.png) no-repeat center center fixed;
+  background-size: 100vw 100vh;
+  background-color: rgb(253, 244, 0);
+  grid-row: 7;
+  grid-column: 1;
+  height: 100vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.eight{
+  background-color: rgb(177, 214, 83);
+  grid-row: 8;
+  grid-column: 1;
+  height: 25vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.nine{
+  background: url(https://i.imgur.com/8vjH1Ih.png) no-repeat center center fixed;
+  grid-row: 9;
+  grid-column: 1;
+  height: 25vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.ten{
+  background-color: blue;
+  grid-row: 10;
+  grid-column: 1;
+  height: 25vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
+}
+
+.eleven{
+  background-color: red;
+  grid-row: 10;
+  grid-column: 1;
+  height: 25vh;
+  transform: skewY(-5deg);
+  overflow: hidden;
 }
 
 .innerwrapper{
@@ -61,5 +129,8 @@ img {
   width: 40%;
   margin-top: 5%;
   margin-bottom: 5%;
+}
 
+.ourStoryInnerWrapper{
+  text-align: center;
 }
