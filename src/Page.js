@@ -11,22 +11,18 @@ class Page extends Component {
         </div>
         <div className="two">
           <div className="innerwrapper">
-          <img src="" alt="hello" height="" />
           </div>
         </div>
         <div className="three">
           <div className="innerwrapper">
-            <img src="" alt="hello" height="" />
           </div>
         </div>
         <div className="four">
           <div className="innerwrapper">
-            <img src="" alt="hello" height="" />
           </div>
         </div>
         <div className="four">
           <div className="innerwrapper">
-            <img src="" alt="hello" height="" />
           </div>
         </div>
         <div className="five">
