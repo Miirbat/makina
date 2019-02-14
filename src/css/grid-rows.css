@@ -1,12 +1,4 @@
-.grid{
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  overflow: hidden;
-}
-
-.one{
+.one {
   background-color: blue;
   grid-row: 1;
   grid-column: 1;
@@ -15,7 +7,7 @@
   overflow: hidden;
 }
 
-.two{
+.two {
   background: url(https://i.imgur.com/RnMf8Xj.png) no-repeat center center fixed;
   background-size: 100vh;
   background-color: rgb(253, 244, 0);
@@ -26,7 +18,7 @@
   overflow: hidden;
 }
 
-.three{
+.three {
   background-color: blue;
   grid-row: 3;
   grid-column: 1;
@@ -35,7 +27,7 @@
   overflow: hidden;
 }
 
-.four{
+.four {
   background: url(https://i.imgur.com/wnepJdy.jpg) no-repeat center center fixed;
   background-size: 100vw 100vh;;
   background-color: rgb(253, 244, 0);
@@ -46,7 +38,7 @@
   overflow: hidden;
 }
 
-.five{
+.five {
   background-color: rgb(132, 16, 130);
   grid-row: 5;
   grid-column: 1;
@@ -59,7 +51,7 @@
   overflow: hidden;
 }
 
-.six{
+.six {
   background-color: orange;
   background: url(https://i.imgur.com/ARfFzcb.jpg) no-repeat center center fixed;
   background-size: 100vw 100vh;;
@@ -70,7 +62,7 @@
   overflow: hidden;
 }
 
-.seven{
+.seven {
   background: url(https://i.imgur.com/VzqZYIr.png) no-repeat center center fixed;
   background-size: 100vw 100vh;
   background-color: rgb(253, 244, 0);
@@ -81,7 +73,7 @@
   overflow: hidden;
 }
 
-.eight{
+.eight {
   background-color: rgb(177, 214, 83);
   grid-row: 8;
   grid-column: 1;
@@ -90,7 +82,7 @@
   overflow: hidden;
 }
 
-.nine{
+.nine {
   background: url(https://i.imgur.com/8vjH1Ih.png) no-repeat center center fixed;
   grid-row: 9;
   grid-column: 1;
@@ -99,7 +91,7 @@
   overflow: hidden;
 }
 
-.ten{
+.ten {
   background-color: blue;
   grid-row: 10;
   grid-column: 1;
@@ -108,29 +100,11 @@
   overflow: hidden;
 }
 
-.eleven{
+.eleven {
   background-color: red;
   grid-row: 10;
   grid-column: 1;
   height: 25vh;
   transform: skewY(-5deg);
   overflow: hidden;
-}
-
-.innerwrapper{
-  transform: skewY(5deg);
-  overflow: hidden;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.ourStoryInnerWrapper{
-  text-align: center;
 }

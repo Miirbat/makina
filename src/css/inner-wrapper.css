@@ -1,0 +1,7 @@
+.innerWrapper {
+  transform: skewY(5deg);
+  overflow: hidden;
+}
+.ourStoryInnerWrapper {
+  text-align: center;
+}
