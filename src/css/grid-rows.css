@@ -8,12 +8,15 @@
 }
 
 .two {
-  background: url(https://i.imgur.com/RnMf8Xj.png) no-repeat center center fixed;
+  background: url(https://i.imgur.com/RnMf8Xj.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: 100vh;
   background-color: rgb(253, 244, 0);
   grid-row: 2;
   grid-column: 1;
-  height: 50vh;
+  height: 60vh;
   transform: skewY(-5deg);
   overflow: hidden;
 }
@@ -28,8 +31,11 @@
 }
 
 .four {
-  background: url(https://i.imgur.com/wnepJdy.jpg) no-repeat center center fixed;
-  background-size: 100vw 100vh;;
+  background: url(https://i.imgur.com/wnepJdy.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: rgb(253, 244, 0);
   grid-row: 4;
   grid-column: 1;
@@ -53,8 +59,11 @@
 
 .six {
   background-color: orange;
-  background: url(https://i.imgur.com/ARfFzcb.jpg) no-repeat center center fixed;
-  background-size: 100vw 100vh;;
+  background: url(https://i.imgur.com/ARfFzcb.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   grid-row: 6;
   grid-column: 1;
   height: 50vh;
@@ -63,12 +72,10 @@
 }
 
 .seven {
-  background: url(https://i.imgur.com/VzqZYIr.png) no-repeat center center fixed;
-  background-size: 100vw 100vh;
   background-color: rgb(253, 244, 0);
   grid-row: 7;
   grid-column: 1;
-  height: 100vh;
+  height: auto;
   transform: skewY(-5deg);
   overflow: hidden;
 }
