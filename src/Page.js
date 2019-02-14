@@ -44,6 +44,7 @@ class Page extends Component {
         </div>
         <div className="seven menu">
           <div className="innerWrapper menuInnerwrapper">
+            <img src="https://i.imgur.com/VzqZYIr.png" alt="uh oh" />
           </div>
         </div>
         <div className="eight parallax ingredientsImage">
